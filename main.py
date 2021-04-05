@@ -1,8 +1,16 @@
-def print_hi(name):
-   print(f'Hi, {name}')
+"""
+Получите первый и последний элемент списка
+"""
+
+
+def power():
+    a = input("Введите значения списка: ")
+    result = a.split()
+    print(result)
+
+    print(result[0])
+    print(result[-1])
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-
+    power()
